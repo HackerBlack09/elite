@@ -3,8 +3,8 @@ import { CiSearch } from 'react-icons/ci'
 import { FaFacebookF, FaPinterestP } from 'react-icons/fa'
 import { AiOutlineTwitter } from 'react-icons/ai'
 import { GoThreeBars } from 'react-icons/go'
-import handbag from './img/Handbag.png'
-import taom from './img/Image.png'
+import handbag from '../img/Handbag.png'
+import taom from '../img/Image.png'
 
 function Home_page() {
     return (
@@ -43,7 +43,7 @@ function Home_page() {
                         </div>
                         <div className="home_tebut">
                             <p className="tebut_p">Its Quick & Amusing!</p>
-                            <p className="tebut_p1"><span>Th</span>e Art of speed food Quality</p>
+                            <p className="tebut_p1"><span>Th</span>e Art of speed<br /> food Quality</p>
                             <p className="tebut_p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue</p>
                             <button className="tebut_btn">See Menu</button>
                         </div>
